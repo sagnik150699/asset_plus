@@ -12,6 +12,8 @@ class GetData {
   Future getData1() async {
     var url = Uri.parse('https://www.assetplus.in/cms/marketing-posters');
      http.Response response = await http.get(url);
+    List users =  usersFromJson(response.body);
+    print("null users$users");
      return response;
 
   }
@@ -22,14 +24,15 @@ class GetData {
   Future getData2() async {
     var url = Uri.parse('https://www.assetplus.in/cms/marketing-tags');
     final response = await http.get(url);
+    final users = usersFromJson(response.body.toString());
     print(response.body);
+    print(users);
     return response.body;
   }
 
   Future getTitle() async {
     final response= await getData1();
     String data = response.body;
-    Poster.fromJson(jsonDecode(data));
     var title=jsonDecode(data)[0]['title'];
     print(title);
     return title;
