@@ -1,8 +1,8 @@
-import 'package:asset_plus/bodyPage.dart';
+import 'package:asset_plus/body_page.dart';
 import 'package:asset_plus/services/bloc.dart';
-import 'package:asset_plus/services/getData.dart';
+import 'package:asset_plus/services/networking.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {

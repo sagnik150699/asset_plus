@@ -1,8 +1,7 @@
 import 'package:asset_plus/services/bloc.dart';
-import 'package:asset_plus/services/getData.dart';
+import 'package:asset_plus/services/networking.dart';
 import 'package:asset_plus/widgets/containers.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 
 class BodyPage extends StatefulWidget {

@@ -1,13 +1,12 @@
 import 'dart:convert';
-
-import 'package:asset_plus/services/note.dart';
-import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+import 'models.dart';
+
 class GetData {
-  List titles;
-  List dates;
-  List url;
+  late List titles;
+  late List dates;
+  late List url;
 
   Future getData1() async {
     var url = Uri.parse('https://www.assetplus.in/cms/marketing-posters');
