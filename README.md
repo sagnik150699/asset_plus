@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sagnik150699/Sagnik-Bhattacharya/master/public/sagnik-bhattacharya.png" alt="Sagnik Bhattacharya" width="180">
+</p>
+**Sagnik Bhattacharya**
+Website: [sagnikbhattacharya.com](https://sagnikbhattacharya.com)
+
 # asset_plus
 
 ## An Flutter UI  assignment to Figure out solution for Asset Plus.
